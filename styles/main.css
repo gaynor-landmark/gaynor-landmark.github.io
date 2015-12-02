@@ -1,0 +1,50 @@
+body {
+  padding: 2%;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif ;
+  color: rgb(8,58,65);
+  background-color: rgb(159,192,147) ;
+}
+h1 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; 
+  font-size: xx-large;
+  padding: 2px;
+}
+h2 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: x-large;
+  padding: 2px;
+}
+h3 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: large;
+  padding: 2px;
+}
+p{
+  padding: 2px;
+}
+.homenav {
+  margin: 2px;
+  text-decoration: none;
+  width: 100%;
+}
+a:link {
+  color: blue 
+}
+a:visited {
+  color: darkblue;
+}
+nav {
+  clear: both;
+}
+footer{
+  font-size: small;
+}
+#HomeArtwork {
+  float: left;
+  width: 66%;
+  padding: 2%;
+}
+#me {
+  width: 12%;
+  float: right;
+}
