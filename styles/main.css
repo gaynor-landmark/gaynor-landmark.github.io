@@ -39,6 +39,8 @@ nav {
 footer{
   font-size: small;
 }
+
+/*home page images*/
 #HomeArtwork {
   float: left;
   width: 66%;
@@ -48,3 +50,14 @@ footer{
   width: 12%;
   float: right;
 }
+
+/*to-do list*/
+li input{
+  display: none;
+}
+li.edit input{
+  display: initial;
+} 
+li.edit span{
+  display: none;
+} 
