@@ -1,38 +1,76 @@
-/**{
-  border: 1px solid green !important;
+*{
+  border: 1px solid transparent !important;
 }
 *{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}*/
+}
 
 /**{margin: 12px;}*/
 
 body {
   /*padding: 2%;*/
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif ;
-  color: rgb(56,45,43);
+  color: rgb(95,95,95) ;   /*rgb(56,45,43);*/
   background-color: rgb(253,246,207,1) ;
 
 }
+
+#homeImage {
+    width: 100%;
+  }
+#meImage {
+    width: 90%;
+  }
+
+
 /*Headers*/
 h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h2{
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 h3{
-  font-size: 1rem;
+  font-size: 2rem;
 }
 h4{
-  font-size: .5rem;
+  font-size: 1rem;
 }
 
 /*Media Queries*/
 
-@media{
+/* larger that mobile */
+@media (min-width: 400px){
+  body{
+    background-color: yellow;
+  }
 
+}
+/* larger that phablet */
+@media (min-width: 550px){
+  body{
+    background-color: blue;
+  }
+}
+/* larger than tablet */
+@media (min-width: 750px){
+  body{
+    background-color: red;
+  }
+
+}
+/* larger than desktop */
+@media (min-width: 1000px){
+  body{
+    background-color: green;
+  }
+}
+/* larger than desktop HD */
+@media (min-width: 1200px){
+  body{
+    background-color: orange;
+  }
 }
