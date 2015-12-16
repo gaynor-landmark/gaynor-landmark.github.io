@@ -22,9 +22,14 @@ body {
     width: 100%;
   }
 #meImage {
-    width: 90%;
+    width: 50%;
   }
-
+/*#homeHeader{
+  background-color: turquois;
+}
+#intro{
+  float: left;
+}*/
 
 /*Headers*/
 h1{
@@ -44,33 +49,36 @@ h4{
 
 /* larger that mobile */
 @media (min-width: 400px){
-  body{
-    background-color: yellow;
-  }
+  /*body{
+    background-color: white;
+  }*/
+  #meImage {
+      width: 50%;
+    }
 
 }
 /* larger that phablet */
 @media (min-width: 550px){
-  body{
-    background-color: blue;
-  }
+  #meImage {
+      width: 100%;
+    }
 }
 /* larger than tablet */
 @media (min-width: 750px){
-  body{
-    background-color: red;
-  }
+  #meImage {
+      width: 100%;
+    }
 
 }
 /* larger than desktop */
 @media (min-width: 1000px){
-  body{
-    background-color: green;
-  }
+  #meImage {
+      width: 100%;
+    }
 }
 /* larger than desktop HD */
 @media (min-width: 1200px){
-  body{
-    background-color: orange;
-  }
+  #meImage {
+      width: 90%;
+    }
 }
