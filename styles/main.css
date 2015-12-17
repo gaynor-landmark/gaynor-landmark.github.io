@@ -33,7 +33,18 @@ body {
     /*border-radius: 200px;
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;*/
-  }
+}
+
+.blogImage{
+  float: left;
+  max-width: 60%;
+  border-radius: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+}
+.blogTitle{
+  float: left;
+}
 
 #navBlog ul li{
   float: left;
