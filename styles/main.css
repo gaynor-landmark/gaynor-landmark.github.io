@@ -70,16 +70,28 @@ a:visited{
 }
 
 /*Headers*/
-h1{
+.home h1{
   font-size: 3rem;
   line-height: 8rem;
   text-align: center;
   padding-top: 3rem;
 }
-h2{
+.home h2{
   font-size: 2.2rem;
 }
-h3{
+.home h3{
+  font-size: 2rem;
+}
+.blog h1{
+  font-size: 3rem;
+  line-height: 8rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+.blog h2{
+  font-size: 2.2rem;
+}
+.blog h3{
   font-size: 2rem;
 }
 
