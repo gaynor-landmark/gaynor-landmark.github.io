@@ -9,41 +9,34 @@
   </head>
   <body>
     <section id="page wrapper" class="container">     
-      <header class="row" id="homeHeader">
-        <h1>A Bend in the River</h1>
-        
+      <header class="row" id="homeHeader" role="banner">
+        <h1>A Bend in the River</h1> 
       </header>
-      <main role="main"  >
-          <nav class="row" id="navBlog">
-            <section id="reflections">
-              
-              <h2>Reflections on a EDA Experience</h2>
-              <ul>
-                <li><a href="/blog/c4-reflection-blog.html">Fire-side Chat</a></li>
-                <li><a href="/blog/c4-time-and-habits-blog.html">Time Management and Habits</a></li>
-                <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and the DOM (Part 1)</a></li>
-                <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and the DOM (Part 2)</a></li>
-                <li><a href="/blog/c2-emotional-intelligence.html">Self-Awareness</a></li>
-              </ul>
-            </section>
-          </nav>
-          <nav class="row" id="navProjects">
-            <section id="projects">
-              
-              <h3>EDA Projects</h3>
-              <ul>
-                <li><a href="/projects/to-do.html">To-Do Today</a></li> 
-                
-                
-              </ul>
-            </section>
-          </nav>
-        <div class="row">
+        <nav class="row" id="navBlog" role="navigation">
+          <section id="reflections">
+            <h2>Reflections on a EDA Experience</h2>
+            <ul>
+              <li><a href="/blog/c4-reflection-blog.html">Fire-side Chat</a></li>
+              <li><a href="/blog/c4-time-and-habits-blog.html">Time Management and Habits</a></li>
+              <li><a href="/blog/t2-html-css-dom-p1.html">HTML, CSS and the DOM (Part 1)</a></li>
+              <li><a href="/blog/t2-html-css-dom-p2.html">HTML, CSS and the DOM (Part 2)</a></li>
+              <li><a href="/blog/c2-emotional-intelligence.html">Self-Awareness</a></li>
+            </ul>
+          </section>
+        </nav>
+        <nav class="row" id="navProjects" role="navigation">
+          <section id="projects">
+            <h3>EDA Projects</h3>
+            <ul>
+              <li><a href="/projects/to-do.html">To-Do Today</a></li> 
+            </ul>
+          </section>
+        </nav>
+      <main role="main">
+        <article class="row" role="article">
           <div class="six columns">     
-            <img src="./images/Bend-in-the-river.jpg" alt="Mountains and a River" id="homeImage">
-            
+            <img src="./images/Bend-in-the-river.jpg" alt="Mountains and a River" id="homeImage"> 
           </div>  
-          
           <div class="six columns" id="intro"> 
             <p>
               I am an adopted Kiwi, having immigrated here from South Africa many years ago. I feel truly blessed to be here. I have a wonderful husband and two gorgeous sons - men who have filled my life and made me laugh (and cry).  I am incredibly proud of all three.  Living in Palmerston North, I have found loyal friends and a place to call home.
@@ -56,16 +49,15 @@
               <img src="./images/MeImage.jpg" alt="Picture of me - the author" id="meImage"> 
             </div>  
           </div> 
+        </article>
+      </main>
+      <footer class="row" role="contentinfo"> 
+        <div class="eight columns"> 
         </div>
-      </main>  
-      <div id="bottom-section" class="row">
-        <div class="eight columns">
-          
-        </div>
-        <footer class="four columns" role="contentinfo">
+        <div class="four columns" >
           <p id="copyright">&copy; 2015</p>
-        </footer>
-      </div> 
+        </div>
+      </footer> 
     </section>  
     <div class="borderTop"></div>
     <div class="borderBottom"></div>
