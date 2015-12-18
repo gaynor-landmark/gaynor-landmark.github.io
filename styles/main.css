@@ -44,6 +44,7 @@ body {
 }
 .blogTitle{
   float: left;
+  text-align: center;
 }
 
 #navBlog ul li{
@@ -59,10 +60,21 @@ body {
   
 }
 
+/*Links*/
+a:link{
+  color: rgb(25,62,101);
+
+} 
+a:visited{
+  color: rgb(81,93,101);
+}
+
 /*Headers*/
 h1{
   font-size: 3rem;
   line-height: 8rem;
+  text-align: center;
+  padding-top: 3rem;
 }
 h2{
   font-size: 2.2rem;
@@ -71,7 +83,7 @@ h3{
   font-size: 2rem;
 }
 
-
+/*Grey Border*/
 
 .borderLeft {
   background-image: url(../images/greyBorder.png);
@@ -119,9 +131,9 @@ h3{
 
 /* larger that mobile */
 @media (min-width: 400px){
-  /*body{
-    background-color: white;
-  }*/
+  body{
+    background-color: red;
+  }
   #meImage {
       max-width: 50%;
     }
@@ -129,12 +141,29 @@ h3{
 }
 /* larger that phablet */
 @media (min-width: 550px){
+  body{
+    background-color: rgb(253,246,207);
+  }
   #meImage {
       max-width: 100%;
     }
+    /*h1{
+      font-size: 3rem;
+      line-height: 8rem;
+    }
+    h2{
+      font-size: 2.2rem;
+    }
+    h3{
+      font-size: 2rem;
+    }*/
+
 }
 /* larger than tablet */
 @media (min-width: 750px){
+  body{
+    background-color: yellow;
+  }
   #meImage {
       max-width: 100%;
     }
@@ -142,12 +171,18 @@ h3{
 }
 /* larger than desktop */
 @media (min-width: 1000px){
+  body{
+    background-color: orange;
+  }
   #meImage {
       max-width: 100%;
     }
 }
 /* larger than desktop HD */
 @media (min-width: 1200px){
+  body{
+    background-color: white;
+  }
   #homeImage {
     max-width: 90%;
   }
