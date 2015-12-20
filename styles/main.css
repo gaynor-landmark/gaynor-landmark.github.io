@@ -15,16 +15,16 @@ body {
   /*padding: 2%;*/
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif ;
   color: rgb(13,13,46);  
-  background-color: rgb(253,246,207); 
+  background-color: rgb(225,235,237); /*rgb(253,246,207);*/ 
 
 }
 
 #homeImage {
     max-width: 100%;
     height: auto;
-    /*border-radius: 300px;
+    border-radius: 300px;
     -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;*/
+    -moz-border-radius: 300px;
   }
 #meImage {
     float: right;
