@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-*{margin: 5px;}
+/**{margin: 5px;}*/
 
 body {
   /*padding: 2%;*/
@@ -47,6 +47,13 @@ body {
   float: left;
   text-align: center;
 }
+
+.OlderLinksHidden{
+  display: none;
+}
+
+
+/*Navigation*/
 
 #navBlog ul li{
   float: left;
