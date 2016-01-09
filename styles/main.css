@@ -33,6 +33,16 @@ h3{
   height: auto;
 }
 
+.blog h1{
+  font-size: large;
+}
+.blog h2{
+  font-size: medium;
+}
+.blog h3{
+  font-size: small;
+}
+
 /* ids */
 
 #navBlog ul li{
