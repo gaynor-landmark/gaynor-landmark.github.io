@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Udacity Reflection (Part 1)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css"> 
+  </head>
+  <body>
+    <section class="container blog">    
+      <header id="header" >
+        <div class="row" id="postTitle" role="banner"> 
+          <img src="../images/Bend-in-the-river1.jpg" alt="River" class="autosizeImage twelve columns">
+        </div>
+        <div class="row">  
+          <div class="two columns">
+            30/11/2015
+          </div>
+          <div class="ten columns">
+            <h1 class="blogTitle">
+              Reflection on HTML, CSS and the DOM - Part 1
+            </h1>
+          </div>
+        </div>
+      </header>
+      <main role="main">
+        <article class="row" role="article">
+          <div class="two columns">
+            <h2>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h2>
+          </div>
+          <div class="ten columns">
+            <p>
+              There are two parts to a web page.  The first is the content ie all the words and the various pictures that illustrate what has been written, in the order in which it will appear on the page. This is created using HTML.  The second is the the design and styling of the page ie the colours that are chosen, the type of fonts and how the content is positioned on the page. This is layered onto the content to give the page its look and feel.
+              The page could be thought of as a set of Troika dolls or Russion nesting dolls.  The web page is the whole set displayed together.  The dolls are like elements on a webpage.  Many of the elements contain further elements, just like one doll can have another doll inside it. HTML describes how many dolls there are and which ones are standing on their own and which ones have others inside them.  All their shapes are basically the same, but each can be given a different personality by the CSS that is used to paint it. 
+
+              The DOM is the Document Object Model - a description of how the page will look when it appears on the screen as the CSS and HTML has been interpreted by the browser that is being used.
+            </p>
+          </div>
+        </article>
+        <article class="row" role="article">
+          <div class="two columns">
+            <h2>What is meant by boxifying design?</h2>
+          </div>
+          <div class="ten columns"> 
+            <p>
+              A design is 'boxified' by separating it out into smaller and smaller boxes so that the design can be translated into HTML elements that will appear on a page.
+            </p>
+          </div>
+        </article>
+        <article class="row" role="article">
+          <div class="two columns">
+            <h2>What is the box model?</h2>
+          </div>
+          <div class="ten columns"> 
+            <p>
+              The box model is the way that area around the content in an element is described.  The Content is the inner-most box.  This is inside the padding box.  The padding box is inside the border and then that is inside the margin. The boxes around the content can be styled using CSS.
+            </p>  
+          </div>
+        </article>
+        <article class="row" role="article">
+          <div class="two columns">
+            <h2>Design and Structural Feature Wish List</h2> 
+          </div>
+          <div class="ten columns">            
+            <h2>Ideas to play with - </h2>
+            <ul>
+              <li>Colour Blocks</li>
+              <li>Full Screen - responsive</li>
+              <li>Larger Font</li>
+              <li>Page frame/outline</li>
+              <li>Simple - not too many layers</li>
+              <li>Well-spaced</li>
+              <li>Larger pics</li>
+              <li>Semi-transparent background pics</li>
+            </ul>
+          </div>
+        </article>
+      </main>
+      <br>
+      <div class="row" role="navigation">
+        <div class="two columns"><a href="#">Previous</a></div>
+        <div class="two columns"><a href="#">Next</a></div>
+        <div class="six columns"></div> 
+        <div class="two columns u-pull-right"><a href="../index.html">Home</a></div>
+      </div>
+      <footer role="contentinfo" class="row u-pull-right"> 
+        <p id="copyright">&copy; 2015</p>
+      </footer>
+    </section>
+  </body>
+</html>
