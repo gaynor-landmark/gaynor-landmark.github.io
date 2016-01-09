@@ -1,26 +1,25 @@
 *{
  /* border: 1px solid red !important;*/
 }
-*{
+/**{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 .container{
   margin-top: 50px;
 }
 
-#navBlog ul li{
-  display: inline;
-  margin-left: 20px;
-  float: left;
+
+/* for testing */
+.green{
+  background-color: green;
 }
-#navProjects ul li{
-  display: inline;
-  margin-left: 20px;
-  float: left;
+.orange{
+  background-color: orange;
 }
+
 
 h1{}
 h2{}
@@ -28,8 +27,24 @@ h3{
   font-size: medium;
 }
 
-#homeImage img{
-  margin-bottom: 50px;
+.autosizeImage{
+  margin-bottom: 10px;
   max-width: 100%;
   height: auto;
+}
+
+/* ids */
+
+#navBlog ul li{
+  display: inline;
+  margin-right: 20px;
+  float: left;
+}
+#navProjects ul li{
+  display: inline;
+  margin-right: 20px;
+  float: left;
+}
+#meImage{
+  float: right;
 }
