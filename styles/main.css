@@ -61,10 +61,10 @@ h3{
 }
 
 a:link{
-  color: rgb(37,32,163);
+  color: 'darkslateblue';
 }
 a:visited{
-  color: rgb(79,92,101);
+  color: 'darkslategrey';
 }
 
 
