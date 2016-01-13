@@ -6,28 +6,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" type="text/css" href="./styles/main.css"> 
-  </head>
+    <script src="scripts/jQuery.js"></script>
   <body>
     <section id="page-wrapper" class="container home">           
       <header role="banner" class="seven columns">
         <h1>A Bend in the River</h1>
       </header>
       <nav class="five columns" id="navBlog" role="navigation">
-        <section id="reflections">
-          <ul>  
-            <li>Reflections</li> 
-            <li><a href="/blog/c7-motivation.html">Motivation</a></li>
-            <li><a href="/blog/t6-design-to-web-blog.html">Re-design for Responsiveness</a></li>
-            <li><a href="/blog/c6-triggers.html">Self-Mastery</a></li>
-            <li><a href="/blog/c2-emotional-intelligence.html">Older posts...</a></li>
-          </ul>
+        <section id="reflections" class="dropdown">
+          <button class="navButton" onclick="dropReflectionsNav()"> Reflections </button>
+          <div id="reflectionsLinks" class="navDropContent">
+            
+            <a href="/blog/c7-motivation.html">Motivation</a>
+            <a href="/blog/t6-design-to-web-blog.html">Re-design for Responsiveness</a>
+            <a href="/blog/c6-triggers.html">Self-Mastery</a>
+            <a href="/blog/c2-emotional-intelligence.html">Older posts...</a>
+          
+          </div>
         </section>
-        <section id="projects"> 
-          <ul>
-            <li>EDA Projects</li>
-            <li><a href="/projects/to-do.html">Do Ten Today</a></li> 
-          </ul>
+        <section id="projects" class="dropdown">
+          <button class="navButton" onclick="dropProjectsNav()" >EDA Projects</button>
+          <div id="projectsLinks" class="navDropContent">
+            <a href="/projects/to-do.html">Do Ten Today</a> 
+          </div>
         </section>
+        
+       
       </nav>
       <main role="main" class="row">
         <article role="article">     
@@ -47,18 +51,20 @@
       </main>  
       <div class="row">    
         <div class="four columns">
-            <img src="./images/Bend-in-the-river2.jpg" class="autosizeImage">
+            <img src="./images/Bend-in-the-river2.jpg" class="autosizeImage" id="riverPic1">
         </div>
         <div class="four columns">
-            <img src="./images/Bend-in-the-river3.jpg" class="autosizeImage">
+            <img src="./images/Bend-in-the-river3.jpg" class="autosizeImage" id="riverPic2">
         </div>
         <div class="four columns">
-            <img src="./images/Bend-in-the-river4.jpg" class="autosizeImage">
+            <img src="./images/Bend-in-the-river4.jpg" class="autosizeImage" id="riverPic3">
         </div>
       </div> 
       <footer role="contentinfo" class="row u-pull-right"> 
         <p id="copyright">&copy; 2015</p>
       </footer>
     </section>
+    <!--Execute script after page has been loaded -->
+    <script src="scripts/indexscript.js"></script>
   </body>
 </html>
