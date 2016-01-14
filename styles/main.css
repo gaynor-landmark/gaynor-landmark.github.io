@@ -70,6 +70,7 @@ a:visited{
 .navDropContent{
   display: none;
   position: absolute;
+  z-index: 1;
   background-color: white;
   min-width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
