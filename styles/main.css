@@ -108,11 +108,11 @@ a:visited{
     a:link{
      /* background-color: red; */
       color: rgb(35,86,155);
-      font-size: 18px;
+      font-size: 16px;
     }
     a:visited{
       color: rgb(93,127,107);
-      font-size: 18px;
+      font-size: 16px;
     }
 }
 /* larger that phablet */
@@ -124,11 +124,11 @@ a:visited{
   a:link{
      /* background-color: orange; */
       color: rgb(35,86,155);
-      font-size: 20px;
+      font-size: 18px;
     }
     a:visited{
       color: rgb(93,127,107);
-      font-size: 20px;
+      font-size: 18px;
     }
   
 }
@@ -137,11 +137,11 @@ a:visited{
   a:link{
      /* background-color: green; */
       color: rgb(35,86,155);
-      font-size: 22px;
+      font-size: 20px;
     }
     a:visited{
       color: rgb(93,127,107);
-      font-size: 22px;
+      font-size: 20px;
     }
   
 }
