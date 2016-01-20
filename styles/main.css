@@ -63,9 +63,9 @@ a:visited{
 .navButton{
   display: block;
   margin-right: 20px;
-  backgroup-color: orange;
+ /* background-color: orange;*/
   margin-top: 12px;
-  
+  font-size: 16px;
 }
 .navDropContent{
   display: none;
@@ -74,6 +74,7 @@ a:visited{
   background-color: white;
   min-width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+  font-size: 16px;
 }
 
 .navDropContent a {
@@ -102,20 +103,51 @@ a:visited{
 /* larger that mobile */
 @media (min-width: 400px){
   /*body{
-    background-color: white;
+    background-color: green;
   }*/
-  
+    a:link{
+      background-color: red; 
+      color: rgb(35,86,155);
+      font-size: 18px;
+    }
+    a:visited{
+      color: rgb(93,127,107);
+      font-size: 18px;
+    }
 }
 /* larger that phablet */
 @media (min-width: 550px){
+/*body{
+    background-color: yellow;
+  }*/
+
+  a:link{
+     /* background-color: orange; */
+      color: rgb(35,86,155);
+      font-size: 20px;
+    }
+    a:visited{
+      color: rgb(93,127,107);
+      font-size: 20px;
+    }
   
 }
 /* larger than tablet */
 @media (min-width: 750px){
+  a:link{
+     /* background-color: green; */
+      color: rgb(35,86,155);
+      font-size: 22px;
+    }
+    a:visited{
+      color: rgb(93,127,107);
+      font-size: 22px;
+    }
   
 }
 /* larger than desktop */
 @media (min-width: 1000px){
+
   
 }
 /* larger than desktop HD */
