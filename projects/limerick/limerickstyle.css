@@ -1,0 +1,26 @@
+
+#limerick {
+  
+}
+.hidden{
+  display: none;
+}
+
+.gap{
+  height: 50px;
+ /* background-color: orange;*/
+  width: 100%;
+}
+body{
+  text-align center;
+ /* background-color: red;*/
+  margin: auto;
+  width: 600px;
+}
+header{
+  margin-top: 50px;
+}
+
+h1, h2 {
+  margin: auto;
+}
