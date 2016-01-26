@@ -15,12 +15,16 @@ body{
   text-align center;
  /* background-color: red;*/
   margin: auto;
-  width: 600px;
+  width: 900px;
 }
 header{
   margin-top: 50px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: auto;
+}
+
+h3 {
+  font-size: medium;
 }
