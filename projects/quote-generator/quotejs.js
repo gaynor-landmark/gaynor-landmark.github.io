@@ -22,15 +22,18 @@ function displayQuote(){
   var formattedAuthor = HTMLAuthor.replace("%data%", quotes[rndN].auth )
   quoteText.append(formattedAuthor);
 
-  // prepare the tweet
-  var tweetHref = document.getElementById("tweet");
-  tweetHref.href = "https://twitter.com/intent/tweet?text=" + (quotes[rndN].qt).replace(" ", "+") ;
-
-
-
-  
-  
+  // prepare to tweet with the new quote
+  loadTwitterButton(quotes[rndN].qt);
 } 
+
+function loadTwitterButton(quoteText){
+  $("#twitter iframe").remove();    //remove the old button
+  var tweetBtn = $('<a id="tweet" class="twitter-share-button href="#">Tweet</a>')
+                  .attr("href", "https://twitter.com/intent/tweet?text=" + quoteText);
+  $("#twitter").append(tweetBtn);    // append a new button with the updated quote
+  twttr.widgets.load(document.getElementById("#twitter")); 
+}
+
 function getRndNumber (mn, mx) {
   return Math.floor(Math.random() * (mx - mn +1)) + mn;
 }
