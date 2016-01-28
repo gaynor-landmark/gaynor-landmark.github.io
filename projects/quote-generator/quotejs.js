@@ -18,7 +18,6 @@ $('#newQuote').on('click', function(e) {
     var tweetBtn = $('<a></a>')
                    .addClass('twitter-share-button')
                    .attr('href', 'http://twitter.com/share')
-                   .attr('data-url', 'http://test.com')
                    .attr('data-text', quoteText);
    $("#twitter").append(tweetBtn);     // add it back with the new quote   
    twttr.widgets.load();     //reload the  twitter iframe
