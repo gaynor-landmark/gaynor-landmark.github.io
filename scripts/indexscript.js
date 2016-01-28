@@ -1,7 +1,7 @@
 
 function picNum(){
-  // return a random number between 1 and 10
-  return (Math.floor(Math.random() * 11) + 1);
+  // return a random number between 1 and 12
+  return (Math.floor(Math.random() * 12) + 1);
 }
 
 function dropReflectionsNav(){
