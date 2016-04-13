@@ -20,7 +20,8 @@
   background-color: orange;
 }
 body{
-  font-size: 16px;
+  font-size: 20px;
+  font-family: monospace;
 }
 
 h1{}
@@ -34,7 +35,9 @@ h3{
   max-width: 100%;
   height: auto;
 }
-
+.centre{
+  text-align: center;
+}
 
 /* links */
 a:link{
@@ -87,18 +90,6 @@ a:visited{
 .show{
   display: block;
 }
-
-
-/* ids */
-
-
-#meImage{
-  float: right;
-  margin: 2px;
-}
-
-
-
 
 
 /* media queries  */
