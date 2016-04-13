@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Bend in the River</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <script src="scripts/jQuery.js"></script>
+  </head>
+  <body>
+    <section id="page-wrapper" class="container home">
+      <header role="banner" class="row">
+        <div class="six columns">
+          <h2>Gaynor Landmark</h2>
+        </div>
+        <div class='six columns'>
+          <p>g.l.landmark@gmail.com</p>
+          <a href='https://github.com/gaynor-landmark/'>
+            https://github.com/gaynor-landmark/
+          </a>
+        </div>
+      </header>
+      <div class="row green">
+
+        <div class="six columns">
+        </div>
+        <div class="six columns">
+          <nav  id="navBlog" role="navigation">
+            <section id="reflections" class="dropdown">
+              <button class="navButton" onclick="dropReflectionsNav()"> Reflections </button>
+              <div id="reflectionsLinks" class="navDropContent">
+                <a href="/blog/After EDA.html">EDA - now its over</a>
+                <a href='/blog/EDA - a new beginning.html'>EDA - new beginning</a>
+                <a href="/blog/Problem-solving.html">Reflecting on process</a>
+                <a href="/blog/Motivation.html">Motivation</a>
+                <a href="/blog/Time and habits.html">Time and Habits</a>
+                <a href="/blog/Responsiveness.html">Responsiveness</a>
+              </div>
+            </section>
+            <section id="projects" class="dropdown">
+              <button class="navButton" onclick="dropProjectsNav()" >Projects</button>
+              <div id="projectsLinks" class="navDropContent">
+                <a href='https://duckduckquack.herokuapp.com'>Duck-Duck-Quack</a>
+                <!-- <a href="/projects/colourConcentration/concentration.html">Colour Concentration</a>
+                <a href="/projects/quote-generator/quote-generator.html">Random Quotes</a>
+                <a href="/projects/limerick/limerick.html">Limerick</a>
+                <a href="/projects/to-do.html">Do Ten Today</a> -->
+              </div>
+            </section>
+          </nav>
+        </div>
+
+
+      </div>
+
+
+      <main role="main" class="row .green">
+        <div>
+          <h1>
+            A Bend in the River
+          </h1>
+        </div>
+        <article role="article">
+          <img src="./images/Bend-in-the-river9.jpg" alt="Mountains and a River" class="autosizeImage row">
+          <p class="centre">
+            Life is a river - constantly flowing - sometimes a gentle meander, and sometimes rushing headlong
+             towards rapids.  No one knows what is around the next bend in the river.
+          </p>
+        </article>
+      </main>
+      <div class="row">
+        <div class="four columns">
+            <img src="./images/Bend-in-the-river2.jpg" class="autosizeImage" id="riverPic1">
+        </div>
+        <div class="four columns">
+            <img src="./images/Bend-in-the-river3.jpg" class="autosizeImage" id="riverPic2">
+        </div>
+        <div class="four columns">
+            <img src="./images/Bend-in-the-river4.jpg" class="autosizeImage" id="riverPic3">
+        </div>
+      </div>
+      <footer role="contentinfo" class="row u-pull-right">
+        <p id="copyright">&copy; 2015</p>
+      </footer>
+    </section>
+    <!--Execute script after page has been loaded -->
+    <script src="scripts/indexscript.js"></script>
+  </body>
+</html>
