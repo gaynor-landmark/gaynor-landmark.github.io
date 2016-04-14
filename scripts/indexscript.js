@@ -4,6 +4,20 @@ function picNum(){
   return (Math.floor(Math.random() * 11) + 1);
 }
 
+function picNumArray(){
+  // return an array of 3 random numbers without duplicates
+  var picNumArr = [];
+  var i = 0;
+  while (i < 3) {
+    var newNum = picNum();
+    if (picNumArr.indexOf(newNum) < 0) {
+      picNumArr[i] = newNum;
+      i++;
+    }
+  }
+  return picNumArr;
+}
+
 function dropReflectionsNav(){
   console.log ("ref");
   document.getElementById("reflectionsLinks").classList.toggle("show");
@@ -40,14 +54,14 @@ document.onclick = function(e){
       prodropdownContent.classList.remove('show');
     }
   }
-
-
 }
 
 $(document).ready(function(){
-  // load the bottom three pictures -select randomly from the set of ten
+  // load the bottom three pictures -select randomly from the set of 11
+  var picNumArr = picNumArray();
+  console.log(picNumArr);
   for (var i = 1; i < 4; i++){
     var riverPic = document.getElementById("riverPic" + i);
-    riverPic.src = "./images/Bend-in-the-river" + picNum() + ".jpg";
+    riverPic.src = "./images/Bend-in-the-river" + picNumArr[i -1] + ".jpg";
   };
 });
