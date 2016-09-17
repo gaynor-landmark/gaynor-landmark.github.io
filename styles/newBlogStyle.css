@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://c6.staticflickr.com/8/7638/26970733501_e27dd87bfb_n.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  padding-top: 2%;
+  color: orange;
+  font-weight: bold;
+  font-size: 250%;
+}
+.text-quote {
+  margin: 2%;
+  padding: 3%;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+}
+.trans-box {
+  margin: 2%;
+  padding: 3%;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+}
+
+.trans-box p {
+  font-weight: bold;
+  color: #000000;
+}
+#fotf {
+  color: orange;
+}
