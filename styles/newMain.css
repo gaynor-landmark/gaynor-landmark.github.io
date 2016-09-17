@@ -14,8 +14,18 @@ h1 {
   font-bold: true;
   font-size: xxx-large;
 }
-li {
-
+h2 {
+  text-align: center;
+  background-color: white;
+  padding: 2%;
+  padding-top: 2.5%;
+  margin: 0%;
+  font-bold: true;
+  font-size: xx-large;
+}
+h3{
+  padding: .5%;
+  text-align: center;
 }
 p {
   padding: .5%;
@@ -37,10 +47,6 @@ footer {
   height: 50px;
   margin-bottom: 25px;
 }
-ul{
-
-
-}
 li {
   padding-left: 50px;
 }
@@ -52,9 +58,7 @@ img {
   background-color: #a5f7e2;
 }
 
-
-
-#page {
+#page, #descpage {
   background-color: white;
 
 }
