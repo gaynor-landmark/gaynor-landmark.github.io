@@ -15,7 +15,9 @@ main{
   width: 60px;
 }
 
-
+p {
+  font-size: large;
+}
 .newColourr1c1{
   display: show;
   background-color: #BF4D28;
