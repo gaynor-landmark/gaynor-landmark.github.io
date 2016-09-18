@@ -65,6 +65,10 @@ img {
 #img1 {
   margin-top: 25px;
 }
+.appBtn {
+  font-size: x-large;
+  background-color: #f2f1ed;
+}
 .dropdown{
   display: inline-block;
   position: relative;
@@ -73,7 +77,7 @@ img {
 .navButton{
   display: block;
   margin-right: 20px;
-  background-color: #a5f7e2;
+  background-color: #f2f1ed;
   margin-top: 12px;
 
 }
@@ -81,7 +85,7 @@ img {
   display: none;
   position: absolute;
   z-index: 1;
-  background-color: #f2f1ed;
+  background-color: white;
   min-width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
 
@@ -98,4 +102,32 @@ img {
 }
 .show{
   display: block;
+}
+/* media queries  */
+/* larger that mobile */
+@media (min-width: 400px){
+    p {
+      font-size: large;
+    }
+    a {
+      font-size: large;
+    }
+}
+/* larger that phablet */
+@media (min-width: 550px){
+    p {
+      font-size: large;
+    }
+    a {
+      font-size: large;
+    }
+}
+/* larger than tablet */
+@media (min-width: 750px){
+    p {
+      font-size: x-large;
+    }
+    a {
+      font-size: x-large;
+    }
 }
