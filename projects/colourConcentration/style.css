@@ -7,8 +7,9 @@ main{
 
 .block{
   border-style: solid;
-  border-color: blue;
+  border-color: black;
   border-width: 3px;
+  padding: 2px;
   margin: 30px;
   height: 53px;
   width: 60px;
@@ -17,48 +18,48 @@ main{
 
 .newColourr1c1{
   display: show;
-  background-color: orange;
+  background-color: #BF4D28;
 }
 .newColourr1c2{
   display: show;
-  background-color: red;
+  background-color: #7CFF16;
 }
 .newColourr1c3{
   display: show;
-  background-color: KhaKi;
+  background-color: #E027AF;
 }
 .newColourr1c4{
   display: show;
-  background-color: Indigo;
+  background-color: #F77825;
 }
 .newColourr1c5{
   display: show;
-  background-color: MistyRose;
+  background-color: #6020D7;
 }
 
 .newColourr2c1{
   display: show;
-  background-color: orange;
+  background-color: #BF4D28;
 }
 .newColourr2c2{
   display: show;
-  background-color: yellow;
+  background-color: #79E7ED;
 }
 .newColourr2c3{
   display: show;
-  background-color: red;
+  background-color: #7CFF16;
 }
 .newColourr2c4{
   display: show;
-  background-color: KhaKi;
+  background-color: #E027AF;
 }
 .newColourr2c5{
   display: show;
-  background-color: Sienna;
+  background-color: #490A3D;
 }
 .newColourr3c1{
   display: show;
-  background-color: Orchid;
+  background-color: mistyrose;
 }
 .newColourr3c2{
   display: show;
@@ -66,60 +67,60 @@ main{
 }
 .newColourr3c3{
   display: show;
-  background-color: green;
+  background-color: #F8CA00;
 }
 .newColourr3c4{
   display: show;
-  background-color: yellow;
+  background-color: #79E7ED;
 }
 .newColourr3c5{
   display: show;
-  background-color: green;
+  background-color: #F8CA00;
 }
 .newColourr4c1{
   display: show;
-  background-color: Indigo;
+  background-color: #F77825;
 }
 .newColourr4c2{
   display: show;
-  background-color: Orchid;
+  background-color: mistyrose;
 }
 .newColourr4c3{
   display: show;
-  background-color: SpringGreen;
+  background-color: #5DC257;
 }
 .newColourr4c4{
   display: show;
-  background-color: SpringGreen;
+  background-color: #5DC257;
 }
 .newColourr4c5{
   display: show;
-  background-color: SkyBlue;
+  background-color: #F6F7BD;
 }
 .newColourr5c1{
   display: show;
-  background-color: Gold;
+  background-color: #25547B;
 }
 .newColourr5c2{
   display: show;
-  background-color: Gold;
+  background-color: #25547B;
 }
 .newColourr5c3{
   display: show;
-  background-color: MistyRose;
+  background-color: #6020D7;
 }
 .newColourr5c4{
   display: show;
-  background-color: Sienna;
+  background-color: #490A3D;
 }
 .newColourr5c5{
   display: show;
-  background-color: SkyBlue;
+  background-color: #F6F7BD;
 }
 
 .newColourr6c1{
   display: show;
-  background-color: Grey;
+  background-color: #BD1550;
 }
 .newColourr6c2{
   display: show;
@@ -127,15 +128,15 @@ main{
 }
 .newColourr6c3{
   display: show;
-  background-color: Grey;
+  background-color: #BD1550;
 }
 .newColourr6c4{
   display: show;
-  background-color: Purple;
+  background-color: #8A8789;
 }
 .newColourr6c5{
   display: show;
-  background-color: Purple;
+  background-color: #8A8789;
 }
 
 

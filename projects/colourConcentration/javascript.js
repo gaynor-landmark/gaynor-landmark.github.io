@@ -89,167 +89,121 @@ function checkMatch(firstBlockID, secondBlockID){
     // row 1
     case "r1c1" : {
      // orange
-     if (secondBlockID == "r2c1"){
-       return true
-     }
+     return (secondBlockID == "r2c1")
      break
     }
     case "r1c2" :{
      // red
-     if (secondBlockID == "r2c3") {
-       return true
-     }
+     return (secondBlockID == "r2c3")
      break
     }
     case "r1c3" :{
-     // khaki
-     if (secondBlockID == "r2c4") {
-       return true
-     }
+
+     return (secondBlockID == "r2c4")
      break
     }
     case "r1c4" : {
      // Indigo
-     if (secondBlockID == "r4c1") {
-       return true
-     }
+     return (secondBlockID == "r4c1")
      break;
     }
     case "r1c5": {
      // MistyRose
-     if (secondBlockID == "r5c3"){
-       return true;
-     }
+     return (secondBlockID == "r5c3")
      break;
     }
     //row 2
     case "r2c1": {
      // orange
-     if (secondBlockID == "r1c1"){
-       return true;
-     }
+     return (secondBlockID == "r1c1")
      break;
     }
     case "r2c2": {
      // Coral
-     if (secondBlockID == "r3c4"){
-       return true;
-     }
+     return (secondBlockID == "r3c4")
      break;
     }
     case "r2c3": {
      // red
-     if (secondBlockID == "r1c2"){
-       return true;
-     }
+     return (secondBlockID == "r1c2")
      break;
     }
     case "r2c4":{
      //
-     if (secondBlockID == "r2c1"){
-       return true;
-     }
+     return (secondBlockID == "r1c3")
      break;
     }
     case "r2c5": {
      // Sienna
-     if (secondBlockID == "r5c4"){
-       return true;
-     }
+     return (secondBlockID == "r5c4")
      break;
     }
   //row 3
     case "r3c1" :{
      // Orchid
-     if (secondBlockID == "r4c2"){
-       return true;
-     }
+     return (secondBlockID == "r4c2")
      break;
     }
     case "r3c2" :{
      // black
-     if (secondBlockID == "r6c2"){
-       return true;
-     }
+     return (secondBlockID == "r6c2")
      break;
     }
     case "r3c3" :{
      // green
-     if (secondBlockID == "r3c5"){
-       return true;
-     }
+     return (secondBlockID == "r3c5")
      break;
     }
     case "r3c4":{
      // SpringGreen
-     if (secondBlockID == "r4c4"){
-       return true;
-     }
+     return (secondBlockID == "r2c2")
      break;
     }
     case "r3c5" :{
      // green
-     if (secondBlockID == "r3c3"){
-       return true;
-     }
+     return (secondBlockID == "r3c3")
      break;
     }
     //row 4
     case "r4c1" :{
      // Indigo
-     if (secondBlockID == "r1c4"){
-       return true;
-     }
+     return (secondBlockID == "r1c4")
      break;
     }
     case "r4c2":{
      // Orchid
-     if (secondBlockID == "r3c1"){
-       return true;
-     }
+     return (secondBlockID == "r3c1")
      break;
     }
     case "r4c3" :{
      // SpringGreen
-     if (secondBlockID == "r4c4"){
-       return true;
-     }
+     return (secondBlockID == "r4c4")
      break;
     }
     case "r4c4" :{
      // SpringGreen
-     if (secondBlockID == "r4c3"){
-       return true;
-     }
+     return (secondBlockID == "r4c3")
      break;
     }
     case "r4c5": {
      // SkyBlue
-     if (secondBlockID == "r5c5"){
-       return true;
-     }
+     return (secondBlockID == "r5c5")
      break;
     }
     //row 5
     case "r5c1":{
      // Gold
-     if (secondBlockID == "r5c2"){
-       return true;
-     }
+     return (secondBlockID == "r5c2")
      break;
     }
     case "r5c2":{
      // Gold
-     if (secondBlockID == "r5c1"){
-       return true;
-     }
+     return (secondBlockID == "r5c1")
      break;
     }
     case "r5c3" :{
      // MistyRose
-     if (secondBlockID == "r1c5"){
-       return true;
-     }
+     return (secondBlockID == "r1c5")
      break;
     }
     case "r5c4": {
